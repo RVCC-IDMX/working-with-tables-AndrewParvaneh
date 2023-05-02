@@ -1,3 +1,18 @@
 body {
-  background-color: aliceblue;
+  background-color: aqua;
+}
+h1 {
+  text-align: center;
+}
+
+table { 
+  background-color: gold;
+}
+
+tr:nth-child(even) td {
+  background-color: steelblue;
+}
+
+tr:nth-child(odd) td {
+  background-color: salmon;
 }
